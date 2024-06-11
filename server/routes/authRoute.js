@@ -1,6 +1,6 @@
 import express from 'express';
 import { loginController, registerController, testController } from '../controllers/authController.js';
-import {requiredSingIn} from '../middlewares/authMiddleware.js'
+import {isAdmin, requiredSingIn} from '../middlewares/authMiddleware.js'
 // router object 
 const router = express.Router();
 
@@ -13,7 +13,7 @@ router.post('/register',registerController);
 router.post('/login',loginController);
 
 // test rout
-router.get('/test',requiredSingIn , testController);
+router.get('/test',requiredSingIn ,isAdmin, testController);
 
 export default router;
 
