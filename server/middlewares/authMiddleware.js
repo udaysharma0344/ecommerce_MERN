@@ -13,6 +13,12 @@ export const requiredSingIn = async (req, res, next)=>{
         console.log(error)
     }
 }
+// jai shree ram 
+try {
+    
+} catch (error) {
+    
+}
 
 // admin access
 export const isAdmin = async (req, res, next)=>{
@@ -31,3 +37,4 @@ export const isAdmin = async (req, res, next)=>{
         console.log(error)
     }
 }
+
