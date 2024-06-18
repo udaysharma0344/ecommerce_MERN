@@ -43,3 +43,10 @@ try {
 } catch (error) {
     
 }
+
+try {
+    
+} catch (error) {
+    
+}
+console.log(error)
