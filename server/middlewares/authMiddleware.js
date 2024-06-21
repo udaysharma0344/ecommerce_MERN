@@ -33,22 +33,3 @@ export const isAdmin = async (req, res, next)=>{
     }
 }
 
-try {
-    
-} catch (error) {
-    
-}
-try {
-    
-} catch (error) {
-    
-}
-
-try {
-    
-} catch (error) {
-    
-}
-console.log(error)
-console.log(error)
-console.log(error)
